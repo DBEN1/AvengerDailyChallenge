@@ -1,0 +1,92 @@
+body {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/997/794/382/miles-morales-spiderman-miles-morales-spider-man-peter-parker-spider-gwen-hd-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+    
+
+  }
+
+li {
+    display: inline;
+    float: right;
+    border-right: 1px solid #bbb;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #111;
+  }
+
+  li:last-child {
+    border-left: 1px solid #bbb;
+  }
+
+h2 {
+    position: fixed;
+    padding: 100px 0px 50px 50px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+
+h1 {
+    position: fixed;
+    padding: 110px 0px 50px 80px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    color: white;
+
+}
+
+.desc {
+    position: fixed;
+    padding: 300px 0px 50px 80px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: white;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
