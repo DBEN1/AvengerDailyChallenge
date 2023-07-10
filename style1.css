@@ -51,8 +51,8 @@ li a {
   }
 
 h2 {
-    position: fixed;
-    padding: 100px 0px 50px 50px;
+    position: absolute;
+    padding: 100px 0px 50px 5000px;
     font-family: 'Cabin', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
@@ -71,14 +71,15 @@ h1 {
 }
 
 .desc {
-    position: fixed;
-    padding: 300px 0px 50px 80px;
+    position: relative;
+    justify-content:baseline;
     font-family: 'Cabin', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     color: white;
     padding-right: 5%;
-    text-align: justify;
+    text-align: center;
+    margin-top: 300px;
 }
 
 .footer {
@@ -90,3 +91,73 @@ h1 {
     color: white;
     text-align: center;
   }
+
+    /* Common styles for all devices */
+    h1, h2 {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    p {
+      text-align: center;
+    }
+
+    /* Styles for medium devices (landscape tablets, 768px and up) */
+    @media screen and (min-width: 768px) {
+      h1, h2 {
+        font-size: 25px;
+      }
+  
+      nav {
+        background-color: lightgreen;
+        color: black;
+      }
+    }
+
+    /* Styles for small devices (portrait tablets and large phones, 600px and up) */
+    @media screen and (min-width: 600px) {
+      h1 , h2 {
+        font-size: 35px;
+      }
+  
+      nav {
+        background-color: yellow;
+        color: black;
+      }
+    }
+
+    /* Styles for large devices (laptops/desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+      h1, h2 {
+        font-size: 25px;
+      }
+  
+      p {
+        float: left;
+        width: 50%;
+      }
+
+      nav {
+        background-color: red;
+        color: white;
+      }
+
+
+    }
+
+    @media screen and (min-width: 1200px) {
+      h1, h2 {
+        font-size: 35px;
+      }
+
+      nav {
+        background-color: black;
+        color: white;
+      }
+      p {
+        float: left;
+        width: 50%;
+        text-align: center;
+      }
+    }
+
